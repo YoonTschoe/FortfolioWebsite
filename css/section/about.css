@@ -1,0 +1,66 @@
+.about__majors {
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+
+.major {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.major__icon {
+  border: 2px solid var(--color-blue);
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  font-size: 70px;
+  line-height: 170px;
+  color: var(--color-blue);
+}
+.major__icon i {
+  transition: all var(--animation-duration) ease;
+}
+.major__icon:hover i {
+  transform: rotate(-30grad) scale(1.15);
+  color: wheat;
+}
+.major__title,
+.major__description {
+  color: var(--color-grey);
+}
+.major__title {
+  margin: 20px 0px;
+}
+.major:last-of-type .major__description {
+  line-height: 3em;
+}
+.career {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.career__logo {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.career__description {
+  text-align: start;
+  height: 50px;
+  padding: 5px 0px;
+}
+.career__position,
+.career__period {
+  color: var(--color-light-grey);
+}
+.career__position {
+  font-size: var(--font-small);
+}
+.career__period {
+  font-size: var(--font-micro);
+}
