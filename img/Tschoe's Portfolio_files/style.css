@@ -56,9 +56,6 @@ body {
 .section {
   padding: 50px;
   text-align: center;
-  margin: auto; /*section: block level*/
-}
-.section__container {
   max-width: 1200px;
-  margin: auto;
+  margin: auto; /*section: block level*/
 }

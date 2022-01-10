@@ -51,16 +51,18 @@
 }
 .career__description {
   text-align: start;
-  height: 50px;
   padding: 5px 0px;
 }
 .career__position,
 .career__period {
   color: var(--color-light-grey);
+  margin: 0px;
 }
 .career__position {
   font-size: var(--font-small);
+  line-height: 30px;
 }
 .career__period {
   font-size: var(--font-micro);
+  line-height: 20px;
 }

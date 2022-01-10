@@ -1,0 +1,67 @@
+#skills {
+  background-color: wheat;
+  margin: auto;
+}
+.skillset {
+  margin: 20px 0px;
+  display: flex;
+  color: var(--color-light-white);
+}
+.skillset__title {
+  color: var(--color-white);
+  font-weight: var(--weight-semi-bold);
+  font-size: var(--font-regular);
+  margin-bottom: 10px;
+}
+.skill__description,
+.tools__item,
+.ect__item {
+  color: var(--color-white);
+  font-weight: var(--weight-regular);
+  font-size: var(--font-small);
+}
+
+.skillset__left {
+  background-color: var(--color-dark-grey);
+  padding: 30px 50px;
+  /* width: 60%; */
+  flex-basis: 60%;
+}
+.skill {
+  padding: 10px 0px;
+}
+.skill__description {
+  display: flex;
+  justify-content: space-between;
+}
+.skill__bar {
+  margin-top: 5px;
+  width: 100%;
+  height: 5px;
+  background-color: var(--color-light-grey);
+  border-radius: var(--size-border-radius);
+}
+.skill__value {
+  height: 5px;
+  background-color: var(--color-orange);
+  border-top-left-radius: var(--size-border-radius);
+  border-bottom-left-radius: var(--size-border-radius);
+}
+
+.skillset__right {
+  /* width: 40%; */
+  flex-basis: 40%;
+  /* display: flex; */
+  flex-direction: column;
+}
+.tools,
+.etc {
+  height: 50%;
+  padding: 30px;
+}
+.tools {
+  background-color: var(--color-grey);
+}
+.etc {
+  background-color: var(--color-light-grey);
+}
