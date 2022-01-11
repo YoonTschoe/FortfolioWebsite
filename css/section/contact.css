@@ -1,0 +1,16 @@
+#contact {
+  background-color: var(--color-blue);
+}
+
+.contact__links {
+  display: flex;
+  justify-content: center;
+}
+.contact__icon {
+  font-size: var(--font-large);
+  margin: 20px 10px;
+  transition: all var(--animation-duration) ease-in;
+}
+.contact__icon:hover {
+  transform: scale(1.1);
+}
