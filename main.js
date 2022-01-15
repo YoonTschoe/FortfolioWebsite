@@ -13,7 +13,7 @@ document.addEventListener('scroll', () => {
 });
 
 
-// Handel scrolling when tapping on the navbar menu
+// Handle scrolling when tapping on the navbar menu
 const navbarMenu = document.querySelector('.navbar__menu');
 navbarMenu.addEventListener('click', (event) => {
     const target = event.target;
@@ -21,6 +21,17 @@ navbarMenu.addEventListener('click', (event) => {
     if(link == undefined) {
         return;
     }
-    const scrollTo = document.querySelector(link);
-    scrollTo.scrollIntoView({ behavior: 'smooth' });
+    scrollIntoView(link);
 });
+
+// Handle scrolling when tapping on the "Contact Me" btn on Home
+const homeContactBtn = document.querySelector('.home__contact');
+homeContactBtn.addEventListener('click', () => {
+    scrollIntoView('#contact');
+});
+
+
+function scrollIntoView(selector) {
+    const scrollTo = document.querySelector(selector);
+    scrollTo.scrollIntoView({ behavior: 'smooth' });
+}
