@@ -1,9 +1,17 @@
 #navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
-  background-color: var(--color-blue);
+  background-color: transparent;
   justify-content: space-between;
   align-items: center;
   padding: 16px;
+  transition: all var(--animation-duration) ease-in-out;
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-blue);
+  padding: 8px;
 }
 
 .navbar__logo {
