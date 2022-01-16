@@ -3,6 +3,7 @@
 
 /* Components */
 @import "component/navbar.css";
+@import "component/arrowup.css";
 
 /* Section */
 @import "section/about.css";

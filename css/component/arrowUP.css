@@ -1,0 +1,19 @@
+.arrow-up {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 40px;
+  border: 1px solid var(--color-blue);
+  border-radius: 50%;
+  background-color: var(--color-blue);
+  width: 60px;
+  height: 60px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms ease-in;
+}
+
+.arrow-up.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
