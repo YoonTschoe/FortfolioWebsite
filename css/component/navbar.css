@@ -37,15 +37,11 @@
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0px 4px;
-  border-radius: var(--size-border-radius);
 }
 
-.navbar__menu__item.active {
-  font-weight: var(--weight-semi-bold);
-  font-style: italic;
-}
 .navbar__menu__item:hover {
   font-style: italic;
+  text-decoration: underline;
 }
 
 .navbar__toggle-btn {

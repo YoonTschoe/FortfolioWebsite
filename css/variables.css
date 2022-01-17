@@ -9,7 +9,7 @@
   --color-dark-blue: #0024cc;
   --color-dark-grey: #3f4044;
   --color-grey: #616161;
-  --color-light-grey: #7c7979;
+  --color-light-grey: #9e5050;
   --color-pink: #e6adcf;
   --color-yellow: #f7eec9;
   --color-orange: #feb546;
@@ -31,6 +31,6 @@
   /* Size */
   --size-border-radius: 4px;
 
-  /* Annimation */
+  /* Animation */
   --animation-duration: 300ms;
 }
