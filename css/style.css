@@ -65,8 +65,19 @@ body {
 
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
+  :root {
+    /* Font size */
+    --font-large: 30px;
+    --font-medium: 18px;
+    --font-regular: 16px;
+    --font-small: 14px;
+    --font-micro: 12px;
+  }
+
   .navbar__toggle-btn {
     display: block;
+    top: 20px;
+    right: 20px;
   }
   #navbar {
     flex-direction: column;
@@ -83,17 +94,24 @@ body {
     display: block;
   }
 
+  .section {
+    padding: 16px;
+    padding-top: 60px;
+  }
+
   .about__majors {
     flex-direction: column;
+    margin: 30px 0px;
   }
   .major {
-    margin-bottom: 38px;
+    margin-bottom: 15px;
   }
   .skillset {
     flex-direction: column;
   }
   .category__btn {
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
+    margin: 4px 0px;
   }
   .project {
     flex-grow: 1;

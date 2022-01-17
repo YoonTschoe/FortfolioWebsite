@@ -9,11 +9,12 @@
 }
 .category__btn {
   flex-basis: 25%;
-  padding: 8px 32px;
+  padding: 8px 40px;
   border: 1px solid var(--color-dark-white);
   border-radius: var(--size-border-radius);
   margin: 0px 2px;
   font-size: var(--font-regular);
+  position: relative;
 }
 .category__count {
   background-color: var(--color-dark-white);
@@ -23,8 +24,9 @@
   width: 24px;
   display: inline-block;
   line-height: 24px;
-  position: relative;
+  position: absolute;
   top: -20px;
+  right: 8px;
   opacity: 0;
   /* display: none; */
   transition: all var(--animation-duration) ease-in;
