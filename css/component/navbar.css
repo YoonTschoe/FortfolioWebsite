@@ -12,7 +12,7 @@
 
 #navbar.navbar--dark {
   background-color: var(--color-blue);
-  padding: 8px;
+  padding: 16px;
 }
 
 .navbar__logo {
