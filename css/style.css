@@ -55,6 +55,7 @@ body {
 /* Section Common */
 .section {
   padding: 50px;
+  padding-top: 80px;
   text-align: center;
   margin: auto; /*section: block level*/
 }
